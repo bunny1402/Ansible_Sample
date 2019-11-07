@@ -1,0 +1,9 @@
+---
+
+-
+ name: Install Winrar on machine
+ hosts: all
+ tasks:
+	win_package:
+	 path: https://download.winzip.com/gl/nkln/winzip24-downwz.exe
+ 	 arguments: /install /passive/ norestart
