@@ -1,5 +1,5 @@
 ---
-  - name: Extract foo.tgz into /var/lib/foo
+  - name: Extract foo.tgz into /var/ansible_tower/Bharani/Ansible_Sample/
     unarchive:
       src: foo.tgz
       dest: /var/lib/foo
